@@ -234,7 +234,7 @@ If you include this at the top of each of your python components then you should
 Alternatively you can set this path by going to the Script Editor `Tools > Options` then select the `Python 3` tab. In the `Module Search Paths` section there is a `+` button to add a search path. Here you can enter the path to the *site-packages* installed for your virtual environment. 
 
 
-~ ![add_path](ref/add_path.gif)
+![add_path](ref/add_path.gif)
 
 With this method you will not need to add any additional search path at the top of each script, you can just import as needed. This is the method that I use. 
 
