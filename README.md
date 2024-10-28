@@ -1,6 +1,6 @@
 ### Using External Python Libraries with Rhino 8 and Grasshopper
 
-Rhino 8 now has support for :sparkles: Python 3 :sparkles:.  As of today (October 27, 2024) the specific flavor of python used in Rhino/GH is Python 3.9.10. This was a long-awaited feature addition that came with Rhino 8. 
+Rhino 8 now has support for Python 3.  As of today (October 27, 2024) the specific flavor of python used in Rhino/GH is Python 3.9.10. This was a long-awaited feature addition that came with Rhino 8. 
 
 Along with the upgrade to python 3, there is now also the ability to (more) easily install external packages. There are a few ways that this functionality is provided in Rhino/GH.
 
