@@ -44,9 +44,11 @@ If everything has gone to plan then this should print:
 There is also a second way to install packages which involves clicking the *package* button or opening the command prompt. In the command prompt there is a menu item called `Install Package` which will open a nice little installer window. 
 
 **Package Button**
+
 ![add_pkg](ref/add_pkg.gif)
 
 **Command Prompt**
+
 ![install_pkg](ref/install_packages.gif)
 
 In my experience, these methods of package installation have, so far, been fairly brittle.
