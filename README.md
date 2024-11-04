@@ -4,13 +4,13 @@ Rhino 8 now has support for Python 3.  As of today (October 27, 2024) the specif
 
 Along with the upgrade to python 3, there is now also the ability to (more) easily install external packages. There are a few ways that this functionality is provided in Rhino/GH.
 
-There is limited information online for how to do this. The main info I have found is [here](https://discourse.mcneel.com/t/new-python-editor-venv/165673/18) on the McNeel forum from Scott Davidson.
+There is fairly limited information online for how to do this. The main info I have found is [here](https://discourse.mcneel.com/t/new-python-editor-venv/165673/18) on the McNeel forum from Scott Davidson, though I may have missed the main source.
 
 Generally there are three ways you can add external packages. 
 
 The first two ways make it quite easy to specify a package which is installed in a special location on your computer to prevent it from interfering with any other installed packages. You are welcome to use these methods, however I have experienced some issues when using them on Rhino 8 releases to date.
 
-The third method is a bit more involved to set up but is also more stable. This is the method I personally use for installing additional packages and would recommend if you are planning to do a lot of python development in grasshopper/rhino. The downside is that this method generally makes your code less distributable to others since it may require them to also set up a virtual environment and install the same packages that you have installed. 
+The third method is a bit more involved to set up but is also (in my experience) generally more stable. This is the method I personally use for installing additional packages and would recommend for now if you are planning to do a lot of python development in grasshopper/rhino. The downside is that this method generally makes your code less distributable to others since it may require them to also set up a virtual environment and install the same packages that you have installed. 
 
 #### Method 1 and 2 | Built-in environment:
 
